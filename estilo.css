@@ -1,0 +1,428 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    /* Color de fondo */
+    /*background-color: rgb(180, 232, 245);*/
+    /* background: url(); */
+    /* margin: 0;
+    padding: 0; */
+    background-color: #fcfcfd;
+    
+    /*Fuente de letra*/
+    /* font-family: "Lexend Deca", sans-serif; */
+}
+
+header nav{
+    background-color:#dd6b93 ;
+    width: 100%;
+    height: 75px;
+    padding: 0px 20px;
+}
+
+.navbar-container{
+    display:flex; 
+    justify-content:space-between;
+    align-items: center;
+} 
+
+.navbar-container img{
+    height: 40px;
+    margin-top: 16px;
+} 
+
+.nav-left-section{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-left-section li{
+    display: inline;
+    align-items:start;
+    margin-top:16px;
+} 
+
+.nav-left-section a{
+    text-decoration: none;
+    padding: 10px 20px 0px 10px;
+}
+
+.titulo{
+    font-size: 24px;
+    color: darkslategray;
+    font-family:"Shantell Sans", cursive;
+} 
+
+.inicio{
+    font-size: 18px;
+    color: darkslategray;
+    font-family:"Lexend Deca", sans-serif;
+    transition: color 0.3s;
+}
+
+.nav-left-section .inicio:hover{
+    color: #999;
+} 
+
+.navbar-buscador{
+    display: flex;
+}
+
+.navbar-buscador input{
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    margin-top: 16px;
+    border-radius: 20px 0 0 20px;
+    outline: none;
+} 
+
+/*  */
+/*  */
+/*  */
+/*  */
+
+h2{
+    color: darkslategray;
+    /*font-family: "Amatic SC", sans-serif;*/
+    font-family: "Shantell Sans", cursive;
+    font-size: 24px;
+}
+
+h3{
+    color: darkslategray;
+    /*font-family: "Amatic SC", sans-serif;*/
+    font-family: "Shantell Sans", cursive;
+    font-size: 16px;
+}
+
+main .descripcion{
+    padding: 30px 200px;
+}
+
+main .info{
+    background-color: #880044;
+    width: 100%;
+    height: 200px;
+    align-items:center;
+    text-align: center;
+    padding: 40px;
+    color: aliceblue;
+    font-family: "Lexend Deca", sans-serif;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+
+/*Editar el div del menu*/
+main .categorias{
+    /*Div flexible para moverse con los elementos dentro*/
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 60px;
+    margin-top: 20px;
+}
+
+/*Anclas del menu*/
+main .menu a{
+    color:darkslategray; 
+    align-items: center;
+    /*viñetas*/
+    text-decoration:none;
+    /*ANCLAS CON BOTONES*/
+    background-color: #ffee88;
+    padding: 5px 10px;
+    /* margin - separarlas de en medio */
+    margin: 20px;
+    border-radius: 8px;
+    font-family: "Shantell Sans", cursive;
+}
+
+main .menu a:hover{
+    background-color: #dd6b93;
+    color: aliceblue;
+}
+
+main .postres{
+    padding: 0px 50px 90px;
+}
+
+main .postres a{
+    font-family: "Shantell Sans", cursive;
+    text-decoration: none;
+    font-size: 26px;
+    color: darkslategray;
+}
+
+.recetas-1 img{
+    height: 160px;
+    align-items: center;
+    margin-left: 17px;
+    margin-top: 20px;
+}
+
+.recetas-1 .nombres-1{
+    justify-content: space-around;
+    display: flex;
+    padding: 0px 100px 40px 0px ;
+}
+.recetas-1 .nombres-1 li{
+    text-decoration: none;
+    display: flex;
+    /* justify-content: space-around; */
+    text-align:center;
+    padding-right: 30px;
+}
+
+.recetas-1 .nombres-1 a{
+    font-size: 15px;
+    font-family: "Lexend Deca", sans-serif;
+}
+
+/*  */
+/*  */
+
+.recetas-2 img{
+    height: 160px;
+    align-items: center;
+    margin-left: 17px;
+    margin-top: 20px;
+    margin: 2px;
+}
+
+.recetas-2 .nombres-2{
+    justify-content: space-around;
+    display: flex;
+    padding: 0px 100px 40px 0px ;
+}
+.recetas-2 .nombres-2 li{
+    text-decoration: none;
+    display: flex;
+    /* justify-content: space-around; */
+    text-align:center;
+    padding-right: 30px;
+}
+
+.recetas-2 .nombres-2 a{
+    font-size: 15px;
+    font-family: "Lexend Deca", sans-serif;
+}
+
+/*  */
+/*  */
+
+.recetas-3 img{
+    height: 160px;
+    align-items: center;
+    margin-left: 17px;
+    margin-top: 20px;
+    margin: 2px;
+}
+
+.recetas-3 .nombres-3{
+    justify-content: space-around;
+    display: flex;
+    padding: 0px 100px 40px 0px ;
+}
+.recetas-3 .nombres-3 li{
+    text-decoration: none;
+    display: flex;
+    /* justify-content: space-around; */
+    text-align:center;
+    padding-right: 30px;
+}
+
+.recetas-3 .nombres-3 a{
+    font-size: 15px;
+    font-family: "Lexend Deca", sans-serif;
+}
+
+/*  */
+/*  */
+
+.recetas-4 img{
+    height: 160px;
+    align-items: center;
+    margin-left: 17px;
+    margin-top: 20px;
+    margin: 2px;
+}
+
+.recetas-4 .nombres-4{
+    justify-content: space-around;
+    display: flex;
+    padding: 0px 100px 40px 0px ;
+}
+.recetas-4 .nombres-4 li{
+    text-decoration: none;
+    display: flex;
+    /* justify-content: space-around; */
+    text-align:center;
+    padding-right: 30px;
+}
+
+.recetas-4 .nombres-4 a{
+    font-size: 15px;
+    font-family: "Lexend Deca", sans-serif;
+}
+
+/*  */
+/*  */
+
+.recetas-5 img{
+    height: 160px;
+    align-items: center;
+    margin-left: 17px;
+    margin-top: 20px;
+    margin: 2px;
+}
+
+.recetas-5 .nombres-5{
+    justify-content: space-around;
+    display: flex;
+    padding: 0px 100px 40px 0px ;
+}
+.recetas-5 .nombres-5 li{
+    text-decoration: none;
+    display: flex;
+    /* justify-content: space-around; */
+    text-align:center;
+    padding-right: 30px;
+}
+
+.recetas-5 .nombres-5 a{
+    font-size: 15px;
+    font-family: "Lexend Deca", sans-serif;
+}
+
+/*  */
+/*  */
+
+.recetas-6 img{
+    height: 160px;
+    align-items: center;
+    margin-left: 17px;
+    margin-top: 20px;
+    margin: 2px;
+}
+
+.recetas-6 .nombres-6{
+    justify-content: space-around;
+    display: flex;
+    padding: 0px 100px 40px 0px ;
+}
+.recetas-6 .nombres-6 li{
+    text-decoration: none;
+    display: flex;
+    /* justify-content: space-around; */
+    text-align:center;
+    padding-right: 30px;
+}
+
+.recetas-6 .nombres-6 a{
+    font-size: 15px;
+    font-family: "Lexend Deca", sans-serif;
+}
+
+
+/* ENCABEZADO */
+/*  */
+/*  */
+/*  */
+/*  */
+
+/* footer{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    background-color: #ffee88;
+    padding: 0;
+} */
+
+.footer{
+    display: flex;
+    flex-flow: row wrap;
+    padding: 30px 30px 20px 30px;
+    color: darkslategray;
+    background-color: #ffee88;
+    border-top: 1px solid #e5e5e5;
+    width: 100%;
+    /* position: fixed;  */
+    left: 0;
+    bottom: 0;
+    margin: 0 auto;
+}
+
+.footer-contact{
+    margin-right: 1.25em;
+    margin-bottom: 2em;
+}
+
+.footer-logo{
+    font-family: "Shantell Sans", cursive;
+    font-weight: 400;
+    /* text-transform: lowercase; */
+    font-size: 1.5rem;
+}
+
+.footer-contact h2{
+    margin-top: 1.3em;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.nav-title{
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.footer ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+.footer li{
+    line-height: 2em;
+}
+
+.footer a{
+    text-decoration: none;
+}
+
+.footer-left{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.footer-left > *{
+    flex: 1 50%;
+    margin-right: 1.25em;
+}
+
+.nav-ul a{
+    color: #999;
+}
+
+.nav-ul-2{
+    column-count: 2;
+    column-gap: 1.25em;
+}
+
+.legal{
+    display: flex;
+    /* flex-wrap: wrap; */
+    color: #999;
+}
+.legal-links{
+    display: flex;
+    align-items: center;
+}
+
+
+

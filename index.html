@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<!--html encapsular todo nuestro código = lang(idioma)-->
+<html lang="es">
+<!--head = (cabeza) metadata e información del proyecto para el navegador, también donde conectamos otros archivos-->
+
+<head>
+    <!--meta = (metadata), charset="UTF-8" (aplica un set de caracteres, depende del idioma) -->
+    <meta charset="UTF-8">
+    <!--dimensiones y escalas de la pagina web-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--title = el título de la pestaña-->
+    <title>Sweet tastees</title>
+    <!-- favicon (loguito de la pestaña) -->
+    <link rel="icon" href="/images/pasteleria.png">
+
+    <!--Enlace con hoja de estilo (CSS)-->
+    <link rel="stylesheet" href="/estilo.css">
+
+    <!-- Enlace de tipografía -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap" rel="stylesheet">
+
+<!-- Fuente de letra de encabezados -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Lexend+Deca:wght@100..900&family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+</head>
+<!--Sección con la que si se puede interactuar-->
+
+<body>
+    <header>
+        <nav>
+            <div class="navbar-container">
+                <img src="/images/pasteleria.png" alt="logo">
+                <ul class="nav-left-section">
+                    <li><a class="titulo" href="">Sweet tastees</a></li>
+                    <li><a class="inicio" href="">Inicio</a></li>
+                </ul>
+                <div class="navbar-buscador">
+                    <input type="text" placeholder="Buscar...">
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="descripcion">
+            <div class="info">
+                <p>Información de la página</p>
+            </div>
+        </section>
+        
+        <section class="categorias">
+            <div class="menu">
+                <a href="#chocolate">Postres de chocolate</a>
+                <a href="#facil">Fácil y sin horno</a>
+                <a href="#navideños">Navideños</a>
+                <a href="#summer">Summer season</a>
+                <a href="#bebidas">Bebidas dulces</a>
+                <a href="#healthy">Deliciously healthy</a>
+             </div>
+        </section>
+
+        <section class="postres">
+            <div class="recetas-1">
+                <a href="">Postres de chocolate</a>
+                <br>
+                <img src="https://www.errenskitchen.com/wp-content/uploads/2016/11/Rich-Banana-Cake-with-Chocolate-Fudge-Frosting-feature.jpg" alt="chocolate fudge frosting banana cake">
+                <img src="https://cdn2.cocinadelirante.com/800x600/filters:format(webp):quality(75)/sites/default/files/images/2020/09/muffin-de-chocolate-abuelita.jpg" alt="muffins de chocolate">
+                <img src="https://www.bakeandshare.com/wp-content/uploads/2022/02/galletas-brownie-doble-chocolate-1.jpg" alt="galletas de brownie">
+                <img src="https://www.pequerecetas.com/wp-content/uploads/2010/03/galletas-con-chispas-de-chocolate-o-chocolate-chips-cookies.jpg" alt="galletas de chispas de chocolate">
+                <img src="https://hips.hearstapps.com/hmg-prod/images/211104-delish-seo-brownie-in-a-mug-horizontal-0028-eb-1636753410.jpg" alt="mug de brownie">
+                <ul class="nombres-1">
+                    <li><a href="">Chocolate Banana Cake</a></li>
+                    <li><a href="">Muffins de Chocolate</a></li>
+                    <li><a href="">Galletas de Chocolate</a></li>
+                    <li><a href="">Chocolate Chip Cookies</a></li>
+                    <li><a href="">Mug Brownie</a></li>
+                </ul>
+            </div>
+            <div class="recetas-2">
+                <a href="">Fácil y sin horno</a>
+                <br>
+                <img src="https://res.cloudinary.com/postedin/image/upload/d_cookcina:no-image.jpg,w_340,c_thumb,f_auto,q_80/cookcina/i-7506.jpg" alt="Reese's">
+                <img src="https://cloudinary-cdn.whisk.com/image/upload/g_auto,c_fill,q_60,f_auto,h_630,w_1200/v1643847695/recipe/a253075549df2c6c7d8b21730e267da2.jpg" alt="Cinnamon roll cheesecakes">
+                <img src="https://honestcooking.com/wp-content/uploads/2017/08/static1.squarespace-3.jpg" alt="Raspberry chocolate cups">
+                <img src="https://comohacercrepas.net/wp-content/uploads/2018/09/7.-crepas-de-chocolate.jpg" alt="Crepas de chocolate">
+                <img src="https://imag.bonviveur.com/flan-de-turron-casero.jpg" alt="Flan de turrón">
+                <ul class="nombres-2">
+                    <li><a href="">Reese's</a></li>
+                    <li><a href="">Cinnamon Roll Cheesecakes</a></li>
+                    <li><a href="">Raspberry Chocolate Cups</a></li>
+                    <li><a href="">Crepas de Chocolate</a></li>
+                    <li><a href="">Flan de Turrón</a></li>
+                </ul>
+            </div>
+            <div class="recetas-3">
+                <a href="">Navideños</a>
+                <br>
+                <img src="https://www.framedcooks.com/wp-content/uploads/2021/08/ridiculously-easy-peach-crumble.png" alt="peach crumble">
+                <img src="https://cdn7.kiwilimon.com/recetaimagen/36664/45664.jpg" alt="patisetas">
+                <img src="https://www.mommyhatescooking.com/wp-content/uploads/2014/11/chai-5.jpg" alt="galletas de chai">
+                <img src="https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_4:3/k%2FEdit%2F08-2022-apple-coffee-cake%2Fapple-coffee-cake3" alt="coffee cake de manzana">
+                <img src="https://unareceta.com/wp-content/uploads/2017/09/receta-de-ponche-de-leche.jpg" alt="ponche de navidad">
+                <ul class="nombres-3">
+                    <li><a href="">Peach Crumble</a></li>
+                    <li><a href="">Patisetas</a></li>
+                    <li><a href="">Galletas de Chai</a></li>
+                    <li><a href="">Coffee Cake de Manzana</a></li>
+                    <li><a href="">Ponche de Navidad</a></li>
+                </ul>
+            </div>
+            <div class="recetas-4">
+                <a href="">Summer season</a>
+                <br>
+                <img src="https://www.barbarabakes.com/wp-content/uploads/2023/02/blueberry-lemon-loaf-bread-5-of-8.jpg" alt="lemon blueberry bread">
+                <img src="https://matcha-karu.com/cdn/shop/articles/Matcha_Panna_Cotta.jpg?v=1588183523&width=1500" alt="panna cotta de matcha">
+                <img src="https://i.pinimg.com/originals/4d/12/62/4d12625a345ab5df471bc232680ce1ff.jpg" alt="quinoa crispies de chocolate">
+                <img src="https://cdn2.cocinadelirante.com/sites/default/files/images/2017/07/paydelimoncontequilahelado1.jpg" alt="pay de limón">
+                <img src="https://imag.bonviveur.com/racion-de-la-tarta-de-mousse-de-chocolate.jpg" alt="mouse de chocolate">
+                <ul class="nombres-4">
+                    <li><a href="">Lemon Blueberry Bread</a></li>
+                    <li><a href="">Panna Cotta de Matcha</a></li>
+                    <li><a href="">Quinoa Crispies de Chocolate</a></li>
+                    <li><a href="">Pay de Limón</a></li>
+                    <li><a href="">Mouse de Chocolate</a></li>
+                </ul>
+            </div>
+            <div class="recetas-5">
+                <a href="">Bebidas dulces</a>
+                <br>
+                <img src="https://realfood.tesco.com/media/images/163-RaspberryLemonade-LH-db966779-209b-4cfe-a59c-32f583775a4b-0-1400x919.jpg" alt="raspberry lemonade">
+                <img src="https://i.pinimg.com/736x/41/b0/e8/41b0e8cb529a1711ac230401ced00080.jpg" alt="frappe de picafresa">
+                <img src="https://getinspiredeveryday.com/wp-content/uploads/2022/10/Pumpkin-Chai-Latte-Get-Inspired-Everyday-5.jpg" alt="pumpkin chai latte">
+                <img src="https://www.prairiefarms.com/wp-content/uploads/files/2023/Salted-Caramel-LatteRECIPE.jpg" alt="salted caramel mocha">
+                <img src="https://es-mycooktouch.group-taurus.com/image/recipe/540x391/sorbete-de-mandarina-y-cava" alt="sorbete de mandarina">
+                <ul class="nombres-5">
+                    <li><a href="">Raspberry Lemonade</a></li>
+                    <li><a href="">Frappe de Picafresa</a></li>
+                    <li><a href="">Pumpkin Chai Latte</a></li>
+                    <li><a href="">Salted Caramel Mocha</a></li>
+                    <li><a href="">Sorbete de Mandarina</a></li>
+                </ul>
+            </div>
+            <div class="recetas-6">
+                <a href="">Deliciously healthy</a>
+                <br>
+                <img src="https://i.ytimg.com/vi/DAOtJOwovso/maxresdefault.jpg" alt="donas de manzana">
+                <img src="https://gfjules.com/wp-content/uploads/2019/08/gluten-free-lemon-bites-tops-versus-bottoms.jpg" alt="lemon bites">
+                <img src="https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/ras/Assets/c4d1432632a598e27041c083cf35baa8/Derivates/69dbf12fad367f79c440295ea7f3965063654342.jpg" alt="tartaletas de avena">
+                <img src="https://www.comedera.com/wp-content/uploads/2023/06/Pay-de-platano-con-cajeta-PG_PDPCC111120002.jpg" alt="pay de plátano">
+                <img src="https://cdn2.cocinadelirante.com/sites/default/files/styles/gallerie/public/images/2017/07/muffinsdeplatanoconavena.jpg" alt="muffins de avena">
+                <ul class="nombres-6">
+                    <li><a href="">Donas de Manzana</a></li>
+                    <li><a href="">Lemon Bites</a></li>
+                    <li><a href="">Tartaletas de Avena</a></li>
+                    <li><a href="">Pay de Plátano</a></li>
+                    <li><a href="">Muffins de Avena</a></li>
+                </ul>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer-contact">
+            <h1 class="footer-logo">Sweet tastees</h1>
+            <h2>Contacto</h2>
+        </div>
+
+        <ul class="footer-left">
+            <li class="footer-nav">
+                <h2 class="nav-title">Mapa del sitio</h2>
+                <ul class="nav-ul">
+                    <li>
+                        <a href="https://about.google/?utm_source=google-MX&utm_medium=referral&utm_campaign=hp-footer&fg=1">Acerca del sitio</a>
+                    </li>
+                    <li>
+                        <a href="https://www.google.com/intl/en_mx/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Todas las categorías</a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="footer-nav-2">
+                <h2 class="nav-title">Categorías de recetas</h2>
+                <ul class="nav-ul-2">
+                    <li>
+                        <a href="https://about.google/?utm_source=google-MX&utm_medium=referral&utm_campaign=hp-footer&fg=1">Postres de chocolate</a>
+                    </li>
+                    <li>
+                        <a href="https://www.google.com/intl/en_mx/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Fácil y sin horno</a>
+                    </li>
+                    <li>
+                        <a href="https://about.google/?utm_source=google-MX&utm_medium=referral&utm_campaign=hp-footer&fg=1">Navideños</a>
+                    </li>
+                    <li>
+                        <a href="https://www.google.com/intl/en_mx/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Summer season</a>
+                    </li>
+                    <li>
+                        <a href="https://about.google/?utm_source=google-MX&utm_medium=referral&utm_campaign=hp-footer&fg=1">Bebidas dulces</a>
+                    </li>
+                    <li>
+                        <a href="https://www.google.com/intl/en_mx/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Deliciously healthy</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        
+        <div class="legal">
+            <p>&copy;2024 Something. All rights reserved.</p>
+            <div class="legal-links">
+                <span>Made with <span class="heart">blablabla</span>Remotely from Anywhere</span>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+</html>
